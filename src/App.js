@@ -18,12 +18,13 @@ const WishlistView = lazy(() => import("./views/account/Wishlist"));
 const NotificationView = lazy(() => import("./views/account/Notification"));
 const MyProfileView = lazy(() => import("./views/account/MyProfile"));
 const ProductListView = lazy(() => import("./views/product/List"));
+const GroceryListView = lazy(() => import("./views/Groceries/Groceries"));
 const ProductDetailView = lazy(() => import("./views/product/Detail"));
 const StarZoneView = lazy(() => import("./views/product/StarZone"));
 const CartView = lazy(() => import("./views/cart/Cart"));
 const CheckoutView = lazy(() => import("./views/cart/Checkout"));
 const InvoiceView = lazy(() => import("./views/cart/Invoice"));
-const DocumentationView = lazy(() => import("./views/Documentation"));
+//const DocumentationView = lazy(() => import("./views/Documentation"));
 const NotFoundView = lazy(() => import("./views/pages/404"));
 const InternalServerErrorView = lazy(() => import("./views/pages/500"));
 const ContactUsView = lazy(() => import("./views/pages/ContactUs"));
@@ -65,7 +66,7 @@ function App() {
             <Route exact path="/cart" element={<CartView/>} />
             <Route exact path="/checkout" element={<CheckoutView />} />
             <Route exact path="/invoice" element={<InvoiceView />} />
-            <Route exact path="/documentation" element={<DocumentationView/>} />
+            <Route exact path="/groceries" element={<GroceryListView />} />
             <Route exact path="/contact-us" element={<ContactUsView/>} />
             <Route exact path="/support" element={<SupportView/>} />
             <Route exact path="/blog" element={<BlogView/>} />

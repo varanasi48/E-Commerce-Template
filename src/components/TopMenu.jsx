@@ -67,21 +67,12 @@ const TopMenu = () => {
                 <li>
                   <hr className="dropdown-divider" />
                 </li>
-                <li>
-                  <Link className="dropdown-item" to="/fsafasf">
-                    404 Page Not Found
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/500">
-                    500 Internal Server Error
-                  </Link>
-                </li>
+                
               </ul>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Fashion
+              <Link className="nav-link" to="/groceries">
+             Groceries
               </Link>
             </li>
             <li className="nav-item">
@@ -109,11 +100,7 @@ const TopMenu = () => {
                 Jewellery
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/documentation">
-                Documentation
-              </Link>
-            </li>
+            
           </ul>
         </div>
       </div>

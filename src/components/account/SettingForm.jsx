@@ -2,23 +2,29 @@ const SettingForm = () => {
   return (
     <div className="card border-danger">
       <h6 className="card-header">
-        <i className="bi bi-gear-fill text-danger"></i> Settiing
+        <i className="bi bi-gear-fill text-danger"></i> Wallet
       </h6>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
-          <i className="bi bi-bell"></i> Notification
+          <i className="bi bi-bell"></i> Promotional Balance
           <div className="form-check form-switch float-end">
             <input className="form-check-input" type="checkbox" />
           </div>
         </li>
         <li className="list-group-item">
-          <i className="bi bi-envelope"></i> E-Mail and SMS
+          <i className="bi bi-envelope"></i> Main balance
           <div className="form-check form-switch float-end">
             <input className="form-check-input" type="checkbox" />
           </div>
         </li>
         <li className="list-group-item">
-          <i className="bi bi-percent"></i> Promotional offers E-Mail and SMS
+          <i className="bi bi-percent"></i> Coupon Balance
+          <div className="form-check form-switch float-end">
+            <input className="form-check-input" type="checkbox" disabled />
+          </div>
+        </li>
+        <li className="list-group-item">
+          <i className="bi bi-percent"></i> Total  Balance
           <div className="form-check form-switch float-end">
             <input className="form-check-input" type="checkbox" disabled />
           </div>
